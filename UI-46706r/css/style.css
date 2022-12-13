@@ -1,0 +1,45 @@
+.dark-container{
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+}
+.contact-form {
+    width: 70%;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+
+.contact-form input[type=text],
+.contact-form input[type=email],
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.contact-form input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+.footer{
+    width: 100%;
+    background-color: rgb(37, 37, 37);
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+}
